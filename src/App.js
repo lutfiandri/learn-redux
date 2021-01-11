@@ -3,6 +3,7 @@ import BuyCake from './components/BuyCake';
 import HooksBuyCake from './components/HooksBuyCake';
 import BuyIceCream from './components/BuyIceCream';
 import BuyPizza from './components/BuyPizza';
+import NewBuyCake from './components/NewBuyCake';
 
 // setup redux
 import { Provider } from 'react-redux';
@@ -16,6 +17,7 @@ function App() {
         <HooksBuyCake />
         <BuyIceCream />
         <BuyPizza />
+        <NewBuyCake />
       </div>
     </Provider>
   );
