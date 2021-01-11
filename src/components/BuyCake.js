@@ -13,7 +13,7 @@ const BuyCake = ({numOfCakes, buyCake}) => {
 const mapStateToProps = (state) => {
   return {
     // masuk ke props
-    numOfCakes: state.numOfCakes
+    numOfCakes: state.cake.numOfCakes
   }
 }
 
